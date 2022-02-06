@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9494bb02.css",
-    "main.js": "/static/js/main.e398b46d.js",
+    "main.css": "/static/css/main.268cf2c3.css",
+    "main.js": "/static/js/main.0271af1e.js",
     "static/media/Pitch.svg": "/static/media/Pitch.c9cbb9bdbb6063bc2720.svg",
     "static/media/Shirt.svg": "/static/media/Shirt.4e308f1d6739c1ae1fa13d2a50063691.svg",
-    "index.html": "/index.html"
+    "index.html": "/index.html",
+    "static/media/Twitter.svg": "/static/media/Twitter.5ae9f4cf80c1f851b13c3fb4494b8d39.svg"
   },
   "entrypoints": [
-    "static/css/main.9494bb02.css",
-    "static/js/main.e398b46d.js"
+    "static/css/main.268cf2c3.css",
+    "static/js/main.0271af1e.js"
   ]
 }
