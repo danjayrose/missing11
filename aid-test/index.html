@@ -27,7 +27,18 @@
       content="Can you name all Missing 11 players that started this football match? A new starting lineup is available each day in this football wordle game, inspired by Missing Men from Sky Sports."
     />
     <script>
+      function show_preroll() {
+        if (void 0 !== aiptag.adplayer)
+          aiptag.cmd.player.push(function () {
+            aiptag.adplayer.startPreRoll();
+          });
+        else {
+          const t = new CustomEvent("aipFailed", { detail: "failed" }, window);
+          window.dispatchEvent(t);
+        }
+      }
       (window.aiptag = window.aiptag || { cmd: [] }),
+        (aiptag.cmd.player = aiptag.cmd.player || []),
         (aiptag.cmd.display = aiptag.cmd.display || []),
         (aiptag.cmp = {
           show: !1,
@@ -35,6 +46,25 @@
           button: !0,
           buttonText: "Privacy settings",
           buttonPosition: "bottom-left",
+        }),
+        aiptag.cmd.player.push(function () {
+          aiptag.adplayer = new aipPlayer({
+            AD_WIDTH: 960,
+            AD_HEIGHT: 540,
+            AD_DISPLAY: "default",
+            LOADING_TEXT: "loading advertisement",
+            PREROLL_ELEM: function () {
+              return document.getElementById("preroll");
+            },
+            AIP_COMPLETE: function (t) {
+              const a = new CustomEvent(
+                "aipComplete",
+                { detail: "complete" },
+                window
+              );
+              window.dispatchEvent(a);
+            },
+          });
         });
     </script>
     <script
@@ -64,7 +94,7 @@
         gtag("js", new Date()),
         gtag("config", "G-GZWHB26SFV");
     </script>
-    <script defer="defer" src="/aid-test/static/js/main.77e16f68.js"></script>
+    <script defer="defer" src="/aid-test/static/js/main.8adec4e3.js"></script>
     <link href="/aid-test/static/css/main.2e199f3f.css" rel="stylesheet" />
   </head>
   <body>
@@ -91,5 +121,6 @@
         </script>
       </div>
     </div>
+    <div id="preroll"></div>
   </body>
 </html>
