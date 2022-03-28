@@ -1,6 +1,6 @@
 {
-  "short_name": "Who Are Ya?",
-  "name": "Who Are Ya?",
+  "short_name": "Where Were Ya?",
+  "name": "Where Were Ya?",
   "icons": [
     {
       "src": "icon.png",
@@ -8,7 +8,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./who-are-ya/",
+  "start_url": "./where-were-ya/",
   "display": "standalone",
   "theme_color": "#57ac57",
   "background_color": "#ffffff"
