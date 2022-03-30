@@ -8,7 +8,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./bundesliga/",
+  "start_url": "./who-are-ya/bundesliga/",
   "display": "standalone",
   "theme_color": "#57ac57",
   "background_color": "#ffffff"
