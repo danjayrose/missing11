@@ -8,7 +8,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./where-were-ya/",
+  "start_url": "/where-were-ya/",
   "display": "standalone",
   "theme_color": "#57ac57",
   "background_color": "#ffffff"
