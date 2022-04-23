@@ -29,7 +29,18 @@
       Brasileirão Who Are Ya? - Daily Brasileirão football wordle game
     </title>
     <script>
+      function show_preroll() {
+        if (void 0 !== aiptag.adplayer)
+          aiptag.cmd.player.push(function () {
+            aiptag.adplayer.startPreRoll()
+          })
+        else {
+          const t = new CustomEvent('aipFailed', { detail: 'failed' }, window)
+          window.dispatchEvent(t)
+        }
+      }
       ;(window.aiptag = window.aiptag || { cmd: [] }),
+        (aiptag.cmd.player = aiptag.cmd.player || []),
         (aiptag.cmd.display = aiptag.cmd.display || []),
         (aiptag.cmp = {
           show: !0,
@@ -37,6 +48,25 @@
           button: !1,
           buttonText: 'Privacy settings',
           buttonPosition: 'top-right',
+        }),
+        aiptag.cmd.player.push(function () {
+          aiptag.adplayer = new aipPlayer({
+            AD_WIDTH: 960,
+            AD_HEIGHT: 540,
+            AD_DISPLAY: 'center',
+            LOADING_TEXT: 'loading advertisement',
+            PREROLL_ELEM: function () {
+              return document.getElementById('preroll')
+            },
+            AIP_COMPLETE: function (t) {
+              const a = new CustomEvent(
+                'aipComplete',
+                { detail: 'complete' },
+                window
+              )
+              window.dispatchEvent(a)
+            },
+          })
         })
     </script>
     <script
@@ -68,10 +98,10 @@
     </script>
     <script
       defer="defer"
-      src="/who-are-ya/brasileirao/static/js/main.1b26b650.js"
+      src="/who-are-ya/brasileirao/static/js/main.7b0dc024.js"
     ></script>
     <link
-      href="/who-are-ya/brasileirao/static/css/main.3f8de095.css"
+      href="/who-are-ya/brasileirao/static/css/main.babeed50.css"
       rel="stylesheet"
     />
   </head>
@@ -90,6 +120,7 @@
         </script>
       </div>
     </div>
+    <div id="preroll"></div>
     <nav class="sidebar-container">
       <button
         class="sidebar-toggle"
@@ -171,9 +202,8 @@
         </div>
         <div class="sidebar-header"><h2>Play Other Sports</h2></div>
         <div class="sidebar-games">
-          <a href="https://basketball.whoareya.games" style="font-size: 40px"
-            >🏀</a
-          >
+          <a href="https://basketball.whoareya.games" class="emoji-link">🏀</a>
+          <a href="https://cricket.whoareya.games" class="emoji-link">🏏</a>
         </div>
         <div class="sidebar-footer">
           <a
