@@ -391,7 +391,7 @@ conversantmedia.com, 100106, RESELLER, 03113cd04947736d
 #V 04.05.2022 PH
 
 #------------------------------------------------------------------------------------------------------
-venatusmedia.com, 627d0f4def45bb56a68e11af, DIRECT
+venatusmedia.com, 627cfbb3ef45bb56a68e1174, DIRECT
 33across.com, 0010b00001rrIFkAAM, DIRECT, bbea06d9c4d2853c                  # 33Across_0_9_6&7
 yahoo.com, 57289, DIRECT,  e1a5b5b6e3255540                                 # 33Across_0_9_6&7
 advertising.com, 12543, DIRECT                                              # 33Across_0_9_6&7
