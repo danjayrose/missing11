@@ -412,6 +412,9 @@ conversantmedia.com, 100106, RESELLER, 03113cd04947736d
 # @                                                                                        @
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+playwire.com, 73555, DIRECT
+playwire.com, 1024672, DIRECT
+
 #152Media
 152media.info, 152M3, DIRECT
 adtech.com, 12069, DIRECT
