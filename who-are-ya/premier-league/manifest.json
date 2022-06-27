@@ -3,7 +3,7 @@
   "name": "EPL Who Are Ya?",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "/who-are-ya/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
