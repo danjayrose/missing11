@@ -388,7 +388,11 @@ conversantmedia.com, 100106, RESELLER, 03113cd04947736d
 
 
 
-# Playwire Ads.txt file v6.3 - 05/02/22
+
+# Playwire Ads.txt file v6.4 - 06/27/22
+
+playwire.com, 73555, DIRECT
+playwire.com, 1024672, DIRECT
 
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # @                                                                                        @
@@ -412,9 +416,6 @@ conversantmedia.com, 100106, RESELLER, 03113cd04947736d
 # @                                                                                        @
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-playwire.com, 73555, DIRECT
-playwire.com, 1024672, DIRECT
-
 #152Media
 152media.info, 152M3, DIRECT
 adtech.com, 12069, DIRECT
@@ -429,13 +430,13 @@ appnexus.com, 3153, RESELLER, f5ab79cb980f11d1
 
 #33Across
 33across.com, 0014000001YrMoYAAV, DIRECT, bbea06d9c4d2853c
-yahoo.com, 57289, DIRECT, e1a5b5b6e3255540
-rubiconproject.com, 16414, DIRECT, 0bfd66d529a55807
-indexexchange.com, 191973, DIRECT, 50b1c356f2c5c8fc
-openx.com, 537120563, DIRECT, 6a698e2ec38604c6
-rubiconproject.com, 21642, DIRECT, 0bfd66d529a55807
-pubmatic.com, 156423, DIRECT, 5d62403b186f2ace
-advertising.com, 12543, DIRECT
+appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
+pubmatic.com, 156423, RESELLER, 5d62403b186f2ace
+openx.com, 537120563, RESELLER, 6a698e2ec38604c6
+rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807
+indexexchange.com, 191973, RESELLER, 50b1c356f2c5c8fc
+conversantmedia.com, 100141, DIRECT
+contextweb.com, 561561, RESELLER, 89ff185a4c4e857c
 
 #A9
 aps.amazon.com,bd056b42-51db-43ce-9a8e-3b11319b5d1f,DIRECT
@@ -481,17 +482,12 @@ xandr.com, 13080, DIRECT
 #Beachfront
 beachfront.com, 13761, DIRECT, e2541279e8e2ca4d
 
-#DistrictM
-districtm.io, 100952, DIRECT, 3fd707be9c4527c3
-conversantmedia.com, 40886, DIRECT
-appnexus.com, 1908, RESELLER, f5ab79cb980f11d1
-
 #E-Planning
 e-planning.net,7b7f0a84a3bda9b7,DIRECT,c1ba615865ed87b2
 e-planning.net,22a65ed656fd83c6,DIRECT,c1ba615865ed87b2
 sonobi.com,8efb591506,DIRECT,d1a215d9eb5aee9e
 emxdgt.com, 2007, DIRECT, 1e1d41537f7cad7f
-openx.com,541031350,RESELLER,6a698e2ec38604c6
+inmobi.com,09f53411034d4d608cd6230490d46fff,DIRECT,83e75a7ae333ca9d
 pubmatic.com,156631,RESELLER,5d62403b186f2ace
 aol.com,57992,RESELLER,e1a5b5b6e3255540
 yahoo.com,57992,RESELLER,e1a5b5b6e3255540
@@ -513,19 +509,9 @@ google.com, pub-9728353415461720, DIRECT, f08c47fec0942fa0
 
 #Gumgum
 gumgum.com, 11602, DIRECT, ffdef49475d318a9
-appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
-rubiconproject.com, 23434, RESELLER, 0bfd66d529a55807
-contextweb.com, 558355, RESELLER, 89ff185a4c4e857c
-pubmatic.com, 157897, RESELLER, 5d62403b186f2ace
-emxdgt.com, 1284, RESELLER, 1e1d41537f7cad7f
-openx.com, 537149485, RESELLER, 6a698e2ec38604c6
-admanmedia.com, 799, RESELLER
 improvedigital.com, 1884, RESELLER
-smartadserver.com, 4005, RESELLER
 revcontent.com, 110029, RESELLER
-synacor.com, 82151, RESELLER, e108f11b2cdf7d5b
 outbrain.com, 00254374f0c468f3b2732db17fd42cb6e5, RESELLER
-rhythmone.com, 78519861, RESELLER, a670c89d4a324e47
 google.com, pub-3848273848634341, RESELLER, f08c47fec0942fa0
 
 #Improve
@@ -540,8 +526,9 @@ indexexchange.com, 188893, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 192410, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 193336, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 186266, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 186779, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 193336, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 191685, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 186779, RESELLER, 50b1c356f2c5c8fc
 
 #Infolinks
 infolinks.com, 3185668, DIRECT
@@ -563,6 +550,22 @@ sonobi.com, 0e0a64d7d3, RESELLER, d1a215d9eb5aee9e
 33across.com, 0010b00002CpYhEAAV, RESELLER, bbea06d9c4d2853c
 emxdgt.com, 1918, RESELLER, 1e1d41537f7cad7f
 
+#JustPremium
+gumgum.com, 15463, DIRECT, ffdef49475d318a9
+justpremium.com, 2529, DIRECT
+appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
+rubiconproject.com, 23434, RESELLER, 0bfd66d529a55807
+openx.com, 537149485, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 157897, RESELLER, 5d62403b186f2ace
+admanmedia.com, 799, RESELLER
+smartadserver.com, 4005, RESELLER
+bidtellect.com, 1407, RESELLER, 1c34aa2d85d45e93
+contextweb.com, 558355, RESELLER
+EMXDGT.com, 1284, RESELLER, 1e1d41537f7cad7f
+33across.com, 0013300001r0t9mAAA, RESELLER, bbea06d9c4d2853c
+synacor.com, 82151, RESELLER, e108f11b2cdf7d5b
+rhythmone.com, 78519861, RESELLER, a670c89d4a324e47
+
 #MediaGrid
 themediagrid.com, 6QY7B4, DIRECT, 35d5010d7789b49d
 themediagrid.com, KA3Q45, DIRECT, 35d5010d7789b49d
@@ -576,6 +579,9 @@ media.net, 8CU425KRF, DIRECT
 pubmatic.com, 159463, RESELLER, 5d62403b186f2ace
 openx.com, 537100188, RESELLER, 6a698e2ec38604c6
 onetag.com, 5d49f482552c9b6, RESELLER
+rubiconproject.com, 19396, Reseller, 0bfd66d529a55807
+Appnexus.com, 1356, RESELLER, f5ab79cb980f11d1
+EMXDGT.com, 1759, Reseller, 1e1d41537f7cad7f
 
 #Nativo
 nativo.com, 5711, DIRECT, 59521ca7cc5e9fee
@@ -594,6 +600,7 @@ yahoo.com, 57872, DIRECT
 sonobi.com, 7ad1b9f952, RESELLER, d1a215d9eb5aee9e
 gumgum.com, 13926, DIRECT, ffdef49475d318a9
 33across.com, 0010b00002Mq2FYAAZ, DIRECT, bbea06d9c4d2853c
+yahoo.com, 59885, RESELLER, e1a5b5b6e3255540
 
 #OneTag
 onetag.com, 75af8ddf9433634, DIRECT
@@ -699,6 +706,7 @@ sonobi.com, e4464446ab, DIRECT, d1a215d9eb5aee9e
 sonobi.com, 8dc2f48f6c, DIRECT, d1a215d9eb5aee9e
 sonobi.com, ca8e9ef7f0, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 3ee0a3667e, DIRECT, d1a215d9eb5aee9e
+yahoo.com, 59875, RESELLER
 
 #SpotXchange
 spotx.tv, 71426, DIRECT, 7842df1d2fe2db34
@@ -740,7 +748,7 @@ pubmatic.com, 156325, RESELLER, 5d62403b186f2ace
 
 #Yieldmo
 yieldmo.com, 2073946213921227802, DIRECT
-yieldmo, 2990721854664024411, DIRECT
+yieldmo.com, 2990721854664024411, DIRECT
 appnexus.com, 7911, RESELLER, f5ab79cb980f11d1
 rubiconproject.com, 17070, RESELLER, 0bfd66d529a55807
 pubnative.net, 1007284, RESELLER, d641df8625486a7b
@@ -755,4 +763,3 @@ pubmatic.com, 160648, RESELLER, 5d62403b186f2ace
 indexexchange.com, 194520, RESELLER, 50b1c356f2c5c8fc
 onetag.com, 664e107d9f2b748, RESELLER
 conversantmedia.com, 100270, RESELLER, 03113cd04947736d
-
