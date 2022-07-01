@@ -100,7 +100,6 @@ openx.com,540003333,RESELLER,6a698e2ec38604c6
 
 
 #Amazon
-aps.amazon.com,53b902f9-cf9c-4605-aec3-2c8ce65042b8,DIRECT
 gumgum.com,13543,DIRECT,ffdef49475d318a9
 appnexus.com,8631,DIRECT,f5ab79cb980f11d1
 pubmatic.com,160006,RESELLER,5d62403b186f2ace
